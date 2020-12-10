@@ -3,6 +3,8 @@
 
 <head>
     <title>Tarea Clase 6 | r-argentina programa</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
@@ -15,47 +17,57 @@
 
 
 
-    Primero cuentanos cuantos miembros son en tu familia:</div>
+
     <form onsubmit="false">
 
         <div id="numero-de-miembros">
-            <label for="miembros-familia">Número de miembros:</label>
-            <input id="miembros-familia" placeholder="Número de miembros" type="Number">
-            <button type="submit" id="ingresar-miembros">Enviar</button>
+            Primero cuentanos cuantos miembros son en tu familia:</div>
+        <label for="miembros-familia">Número de miembros:</label>
+        <input id="miembros-familia" placeholder="Número de miembros" type="Number">
+        <button type="submit" id="ingresar-miembros">Enviar</button>
 
 
 
         </div>
-        <ol id="agregar-miembros"></ol>
+        <ol id="lista-miembros"></ol>
 
-        <div id="boton-calcular" style="display:none;">
-            Ahora vamos a hacer un par de cálculos con sus edades</br>
+        <div class="calculos-edades" style="display:none;">
+            <p> Ahora vamos a hacer un par de cuentas</p>
             <button id="calcular-edades" type="submit ">Calcular!</button>
-            <button id="resetear" type="reset">Reset</button><br>
+        </div>
+        <div>
+            <button id="resetear" type="reset" style="display:none;">Reset</button><br>
 
         </div>
         <div id="comparacion-edades">
-            </br>
+
             <em id="promedio-edad"></em></br>
             <em id="edad-mayor"></em><br>
             <em id="edad-menor"></em></br>
-            </br>
+
         </div>
 
         <div id="campo-salarios" style="display:none;">
             <button id="agregar-salarios" type="submit" onsubmit="false">Agregar salarios</button>
             <button id="quitar-salarios" type="submit" onsubmit="false">Quitar salarios</button>
             <button id="calcular-salarios" type="submit" onsubmit="false">Calcular salarios</button>
-            </br>
-            </br>
-            <em id="promedio-salario"></em>
-            </br>
-            <em id="salario-mayor"></em></br>
-            <em id="salario-menor"></em>
         </div>
+        <div id="comparacion-salarios">
+            <em class="resultados-salarios" id="promedio-salario"></em> </br>
 
+            <em class="resultados-salarios" id="salario-mayor"></em></br>
+            <em class="resultados-salarios" id="salario-menor"></em>
+        </div>
+        <ul id="errores">
+
+        </ul>
     </form>
 </body>
-<script type="text/javascript" src="grupo-familiar.js"></script>
 
-</html>
+<script type="text/javascript" src="js\validaciones.js"></script>
+<script type="text/javascript" src="js/calculos.js"></script>
+<script type="text/javascript" src="js/agregarElementos.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/pruebas.js"></script>
+
+<ml>

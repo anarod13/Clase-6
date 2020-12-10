@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(2, 2, 59);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+
+form {
+    font-size: 1.2em;
+    padding: 12px;
+    text-decoration-color: rgb(2, 2, 59);
+}
+
+#numero-de-miembros {
+    padding-bottom: 10px;
+    font-weight: 530;
+}
+
+button {
+    color: rgb(2, 2, 59);
+    font: 'Gill Sans';
+    font-weight: 600;
+    border-width: 0.2em;
+    border-radius: 0.35em;
+}
+
+input {
+    border-width: 0.2em;
+    border-radius: 0.35em;
+    caret-color: teal;
+    height: 1.5em;
+}
+
+#ingresar-miembros {
+    width: 120px;
+    height: 2em;
+}
+
+.nombres,
+.edades {
+    width: 90px;
+    margin-right: 4px;
+}
+
+.campo-salario {
+    float: right;
+    font-style: normal;
+    margin-right: 19%;
+}
+
+input.salarios {
+    width: 90px;
+}
+
+#calcular-edades {
+    width: 40%;
+    height: 2em;
+    float: left;
+}
+
+#resetear {
+    width: 40%;
+    height: 2em;
+    float: right;
+    margin-right: 15%;
+}
+
+#comparacion-edades,
+#comparacion-salarios {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+#agregar-salarios {
+    width: 28%;
+    height: 2em;
+    margin: 0%;
+}
+
+#quitar-salarios {
+    width: 28%;
+    height: 2em;
+    margin: 0%;
+    float: center;
+}
+
+#calcular-salarios {
+    width: 28%;
+    height: 2em;
+    margin-right: 15%;
+    float: right;
+}
